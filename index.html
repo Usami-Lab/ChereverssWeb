@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chereverss | 公式紹介ページ</title>
+  <link rel="Background" href="background.css" />
+
+  <style>
+    /* 中央寄せの基本スタイル */
+    html, body { height: 100%; margin: 0; padding: 0; }
+    body { font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; background-color: #f5f5f5; }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .logo { display: block; margin-bottom: 12px; }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 16px;
+      text-align: center;
+    }
+
+    .screenshot { display: block; margin: 0 auto; }
+
+    /* 箇条書きのドットを消す */
+    .container ul {
+      list-style: none;
+      padding-left: 0;
+      margin-left: 0;
+      margin-bottom: 1em;
+    }
+
+    .container li { margin: 6px 0; }
+
+    footer { text-align: center; padding: 12px 0; }
+
+    .btn-primary { display: inline-block; margin: 12px 6px; }
+  </style>
+
+  <!-- タブアイコン -->
+  <link rel="icon" href="ChereverssIcon.png" type="image/png">
+</head>
+
+<body>
+  <header class="hero">
+    <img src="うさみラボアイコン透過.png" alt="Chereverss アイコン" class="logo" width="300">
+
+    <h1>Chereverss</h1>
+    <p class="tagline">うさみラボが制作したオリジナルゲーム</p>
+
+    <a href="https://unityroom.com/games/chereverss"
+       target="_blank" rel="noopener noreferrer"
+       class="btn-primary">
+      ▶ ゲームをプレイする（unityroom）
+    </a>
+    <p class="note">Google Play Store 対応予定！</p>
+  </header>
+
+  <main class="container">
+
+    <section id="about">
+      <h2>Chereverssとは？</h2>
+      <ul>
+        <li>オンライン対局・CPU対局が可能</li>
+        <li>挟んだ相手の駒をひっくり返して自分の駒にできるチェス×リバーシゲーム</li>
+        <li>対局でポイントを稼ぎ、コインで駒の購入が可能</li>
+      </ul>
+    </section>
+
+    <section id="howto">
+      <h2>遊び方</h2>
+      <p>クリック・タップで操作。キーボード操作はほぼ不要です。</p>
+      <ul>
+        <li>クエストモードはメニュー画面左の盤をクリック</li>
+        <li>駒の動きはチェス準拠（キャスリング・プロモーションあり）</li>
+        <li>キングを倒す or 挟んで自分の駒にすると勝利</li>
+        <li>CPU対局では駒の価値を調整して強さをカスタム可能</li>
+      </ul>
+    </section>
+    <h2>スクリーンショット・動画</h2>
+     クリック・タップで動画ページへ移動します。
+    <section id="screenshots">
+    </a>
+ <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/LBimudkxrfE"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+</a>
+
+    </section>
+
+
+    <section id="contact">
+      <h2>お問い合わせ</h2>
+      <p>ご意見・バグ報告は以下からお願いします。</p>
+
+      <a href="https://x.com/lab_usami" 
+       target="_blank" rel="noopener noreferrer" 
+       class="btn-primary">
+        ▶ 公式X
+      </a>
+      <br>
+     <a href="usamilab.38720822@gmail.com?subject=お問い合わせ&body=ここに本文を入力してください">
+       ▶ メールでお問い合わせ</a>
+    </section>
+  </main>
+
+  <footer>
+    <small>&copy; 2025 UsamiLab / Chereverss</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
