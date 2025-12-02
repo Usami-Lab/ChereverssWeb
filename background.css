@@ -1,6 +1,0 @@
-body {
-    background-image: url("/BookPageUi.png");
-    background-size: cover;       /* 画面いっぱいに拡大 */
-    background-repeat: no-repeat; /* 繰り返しなし */
-    background-position: center;  /* 中央配置 */
-}

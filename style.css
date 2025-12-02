@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(235, 235, 235);
+}
+.frame {
+  margin: 0 auto;          /* 中央寄せ */
+  /* min-height: 100vh;       ページ全体を囲む */
+  padding: 40px;           /* 内側余白 */
+  box-sizing: border-box;
+  color: black;
+
+  /* ここが Unity の Sprite Slice と同じ */
+  border-style: solid;
+  border-width: 300px;           /* 枠の太さ → 自由に調整可能 */
+  border-image-source: url("OrnateFlame2.png");  /* 枠画像 */
+  border-image-slice: 511 fill;  /* Unity の Slice 値 → 同じ値にする */
+  border-image-repeat: stretch; /* 辺は伸ばし、角はそのまま */
+}
