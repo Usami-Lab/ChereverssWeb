@@ -7,18 +7,9 @@
 
 
     <style>
-      /* 中央寄せの基本スタイル */
+      中央寄せの基本スタイル
       html, body { height: 100%; margin: 0; padding: 0; }
       body { font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; background-color: #f5f5f5; }
-
-      .hero {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 40px 20px;
-      }
 
       .logo { display: block; margin-bottom: 12px; }
 
@@ -51,22 +42,31 @@
   </head>
 
   <body>
+      <header>
+        <img src="うさみラボアイコン透過.png" alt="Chereverss アイコン" class="logo" width="100">
+         <h1 class="title"></h1>
+          <nav class="nav">
+            <ul class="menu-group">
+              <li class="menu-item"><a href="#">Chereverss</a></li>
+              <li class="menu-item"><a href="#">暁</a></li>
+              <li class="menu-item"><a href="#">創世-来光-</a></li>
+              <li class="menu-item"><a href="#">アルバム</a></li>
+            </ul>
+          </nav>        
+      </header>
+
     <div class = "frame">
-      <header class="hero">
-        <img src="うさみラボアイコン透過.png" alt="Chereverss アイコン" class="logo" width="300">
+      <main class="container">
 
         <h1>Chereverss</h1>
         <p class="tagline">うさみラボが制作したオリジナルゲーム</p>
+        <p class="note">Google Play Store 対応予定！</p>
 
         <a href="https://unityroom.com/games/chereverss"
           target="_blank" rel="noopener noreferrer"
           class="btn-primary">
           ▶ ゲームをプレイする（unityroom）
         </a>
-        <p class="note">Google Play Store 対応予定！</p>
-      </header>
-
-      <main class="container">
 
         <section id="about">
           <h2>Chereverssとは？</h2>
